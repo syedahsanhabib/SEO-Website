@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+    .container1{
+         height:85px;
+         width:1350px;
+         background-color: white;
+         display: flex;
+         justify-content: left;
+         margin-top: o;
+         position: fixed;
+         
+    }
+  .container2{
+       width: 1270px;
+       height: 580px;
+      display: flex;
+      justify-content: left;
+       background-color: rgb(236, 233, 233);
+       font-family: 'Times New Roman', Times, serif;  
+       padding:35px;
+       margin-top: 40px;
+      
+  }
+  .form{
+       height:60px;
+       width:300px;
+       border:none;
+       text-align: center;
+       font-size: 20px;
+       border-radius: 15px;
+      
+  }
+
+  .button1{
+        height:60px;
+       width:300px;
+       border:none;
+       text-align: center;
+       font-size: 20px;
+       border-radius: 15px;
+      background-color: blueviolet;
+      color :white;
+      margin-left: 10px;
+  }
+  button:hover{
+    transform:translateY(-5px);
+  }
+
+  .img{
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+ .navbar{
+       text-decoration: none; 
+       font-size: 25px;
+       line-height: 80px;
+       color: black;
+ }
+ 
+.search{
+        width:170px;
+        height:35px;
+        border-radius: 10px;
+        font-size: 15px;
+        margin-left: 130px;
+        box-shadow: 0px 4px 10px rgb(194, 187, 187);
+        border:none;
+     
+}
+ .button2{
+  margin-top: 22px;
+        width:70px;
+        height:40px;
+        border-radius: 10px;
+        font-size: 15px;
+           background-color: blueviolet;
+           color:white;
+        box-shadow: 0px 4px 10px rgb(194, 187, 187);
+        border:none;
+        margin-left: 35px;
+}
+
+.container3{
+       width: 1270px;
+       height: 480px;
+       background-color: rgb(255, 255, 255);
+       font-family: 'Times New Roman', Times, serif;  
+       padding:35px;
+       text-align: center;
+}
+
+.container4{
+       width: 1270px;
+       height: 640px;
+       background-color: blueviolet;
+       color: white;
+       font-family: 'Times New Roman', Times, serif;  
+       padding:35px;
+       text-align: left;
+       border-radius: 30px;
+}
+.form2{
+      width:1250px;
+      height:55px;
+      border-radius: 10px;
+}
+
+.button3{
+  text-align:  center;
+  margin-left: 600px;
+  width:90px;
+  height:25px;
+  background-color: rgb(233, 233, 233);
+}
+.container5{
+         width: 1270px;
+       height: 600px;
+       background-color: rgb(255, 255, 255);
+       font-family: 'Times New Roman', Times, serif;  
+       padding:35px;
+       text-align: left;
+       display: flex;
+}
+.video{
+  margin-top: 150px;
+  margin-left: 60px;
+}
+.container6{
+    width: 1270px;
+       height: 850px;
+       background-color: rgb(255, 255, 255);
+       font-family: 'Times New Roman', Times, serif;  
+       padding:35px;
+       text-align: center;
+} 
+.container7{
+    width: 300px;
+       height: 600px;
+       background-color: rgb(240, 240, 240);
+       font-family: 'Times New Roman', Times, serif;  
+       padding:35px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       border-radius: 15px;
+       justify-content: center;
+       box-shadow:0px 4px 10px rgb(141, 128, 128);
+       margin-top: 100px;
+       flex-direction: column;
+         transform: 0.2s ease;
+}
+.container7:hover{
+  transform: translateY(-5px);
+}
+.container8{
+   width: 1270px;
+       height: 370px;
+       background-color: blueviolet;
+       color: white;
+       font-family: 'Times New Roman', Times, serif;  
+       padding:35px;
+       text-align: left;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+      
+}
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+.footer{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.fb-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #143b6e;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3 ease;
+}
+.fb-circle:hover {
+  background-color: #145dbf;
+  transform: scale(1.1);
+}
+   
+   .insta-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f324d7;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+    transition: 0.3 ease;
+}
+.insta-circle:hover {
+  background-color: #f2f3f5;
+    transform: scale(1.1);
+}
+ 
+    .linkdin-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #81b1fa;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+   transition: 0.3 ease;
+}
+.linkdin-circle:hover {
+  background-color: #f2f3f5;
+  transform: scale(1.1);
+}
+
+    .twitter-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #81b1fa;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+   transition: 0.3 ease;
+}
+.twitter-circle:hover {
+  background-color: #f2f3f5;
+  transform: scale(1.1);
+}
+
+.container9{
+  width: 1270px;
+       height: 30px;
+      border-top: 1px solid black;
+       background-color: blueviolet;
+       color: white;
+       font-family: 'Times New Roman', Times, serif;  
+       padding:35px;
+       text-align: center;
+       line-height: 0;
+       justify-content: space-between;
+       align-items: center;
+       display: flex;
+}
+
+/* Fullscreen overlay */
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 999;
+}
+
+/* Centered popup box */
+.popup-box {
+    background: blueviolet; /*  like in your image */
+    color: white;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10% auto;
+    position: relative;
+}
+
+/* Close (X) button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Input box */
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Start button */
+.start-btn {
+    background: #2dcaff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width:380px;
+}
+.start-btn:hover {
+    background: #0099cc;
+}
+.container10{
+         height:200px;
+         width:300px;
+         padding:20px;
+         border-radius: 15px;
+         background-color: rgb(249, 243, 255);  
+          font-family: 'Times New Roman', Times, serif;  
+       justify-content: center;
+       align-items: center;
+       text-align: left;
+       justify-content: center;
+       box-shadow:0px 4px 10px rgb(141, 128, 128);
+       margin-top: 100px; 
+            transition: 0.2s ease;  
+}
+.container10:hover{
+  transform: translateY(-5px);
+}
+#heading{color: blueviolet;}
+
+.container11{
+    width: 1270px;
+       height: 550px;
+       background-color: rgb(250, 250, 250);
+       font-family: 'Times New Roman', Times, serif;  
+       padding:35px;
+       text-align: center;
+       display: flex;
+}
+.video2{
+  margin-top: 150px;
+}
+.button4{      
+       height:60px;
+       width:300px;
+       border:none;
+       text-align: center;
+       font-size: 20px;
+       border-radius: 15px;
+      margin-left: 10px;
+      background-color: rgb(241, 241, 241); 
+      color: black;
+}
+.button4:hover{
+  color: white;
+  background-color: blueviolet;
+}
+.line{
+     text-decoration: none;
+}
+.line:hover{text-decoration: underline;}
+
+.container12{
+      width: 300px;
+       height: 450px;
+       font-family: 'Times New Roman', Times, serif;  
+       padding:35px;
+       display: flex;
+       align-items: left;
+       text-align: left;
+       border: none;
+       justify-content: left;
+       margin-top: 100px;
+       flex-direction: column;
+      
+}
+.container12:hover{
+background-color: rgb(248, 248, 248);
+border-radius: 15px;
+ box-shadow:0px 4px 10px rgb(179, 168, 168);
+ border:1.5px solid blueviolet;
+ 
+}
+.button5{
+  position: absolute;
+  height: 90px;
+  width: 150px; 
+ left: 38%;
+  margin-top: 320px;
+   padding: 5px 10px;
+   background-color: blueviolet;
+   border-radius: 20px;
+   border: none;
+   color: white;
+   text-decoration: none;
+   font-size: 60px;
+   text-align: center;
+}
+.button5:hover{
+  background-color: rgb(166, 80, 247);
+}
+.video3{
+  width:700px;
+  height: 450px;
+  display:none;
+  position:absolute; 
+  top:58%; 
+  left:50%;
+   transform:translate(-50%,-50%);
+}
+
+.dropdown{
+        position: relative;
+        display: inline;
+}
+
+.dropdown-content{
+             display: none;
+             position: absolute;
+             background-color: rgb(247, 247, 247);
+             min-width: 200px;
+             box-shadow: 0px 8px 16px rgba(0,0,0,0,2);
+             z-index: 1;
+}
+
+.dropdown-content a{
+            color: black;
+            padding: 10px 16px;
+            text-decoration: none;
+            display: block;
+}
+.dropdown-content a:hover{
+  background-color: blueviolet;
+  color: white;
+}
+.dropdown:hover .dropdown-content{
+display: block;
+}
+</style>
+</head>
+<body>
+
+<!-- Popup -->
+<div class="popup-overlay" id="popup">
+    <div class="popup-box">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <h1><b>Grow your online visibility On all key channels. From just one platform..</b></h1>
+        <p>✓ Find profitable keywords<br>✓Create winning content<br>✓Get more organic content</p>
+        <input type="text" placeholder="Enter your email" style="height:22px;font-size: 16px;">
+        <br>
+        <button class="start-btn" onclick="subscribe()">Subscribe</button>
+    </div>
+</div>
+<script>
+  
+
+function showPopup() {
+    document.getElementById("popup").style.display = "block";
+}
+
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+
+function subscribe() {
+    alert("Thank you for subscribing!");
+    closePopup();
+}
+
+// Show popup after 1 seconds
+setTimeout(showPopup, 1000);
+</script>
+
+
+
+<!--navbar-->
+<div class="container1">
+<img src="logo1.png" style="height: 55px; margin-left: 20px;">
+<div>
+<a href="#" style="margin-left: 230px;" class="navbar" ><b>Home </b></a>
+</div>
+
+<div>
+  <a href="#" style="margin-left: 40px;" class="navbar" ><b>About us </b></a>
+</div>
+
+
+<div class="dropdown">
+ <a href="#" style="margin-left: 40px;" class="navbar" ><b>Services</b>⏷</a>
+ <div class="dropdown-content">
+  <a href="#">SEO Services</a>
+  <a href="#">PPC Services</a>
+  <a href="#">Web Design Services</a>
+  <a href="#">Other Services</a>
+ </div>
+</div>
+
+<div>
+<a href="#" style="margin-left: 40px;" class="navbar" ><b>Contact us </b></a>
+</div>
+
+<div>
+<form>
+  <input type="text" placeholder="search" class="search">
+</form>
+</div>
+
+<div>
+<button class="button2">
+  Search
+</button>
+</div>
+
+</div>
+
+<br><br>
+<!--banner-->
+<div class="container2">
+  <div>
+<h1 style="font-size: 60px; color:blueviolet"><span style="color: black;"><b>The SEO Company <br>for</span> Higher Rankings<br> & Revenue Growth</b></h1>
+<p style="font-size: 25px;">With a track record of excellence and a team of <br>seasoned experts, SEO.com is your go-to source for<br> optimizing your online presence. From keyword <br>research to content optimization and backlink<br> strategies, trust SEO.com to propel your website to <br> the top of search engine rankings.</p>
+<form>
+  <input type="url" placeholder="Enter your website" class="form">
+  <button class="button1"><b>Get SEO Proposal →</b></button>
+</form>
+</div>
+<script>
+  function playVideo(){
+    document.getElementById("thumbnail").style.display="none"; // hide image
+
+        document.getElementById("myVideo").style.display="block"; //show video
+
+        document.getElementById("myVideo").play(); //play video
+  }
+</script>
+<img id="thumbnail"  src="img.webp" width="590px" height="390px" class="img"   alt="thumbnail">
+<button class="button5" onclick="playVideo()"  style="margin-left: 425px;margin-top: 275px;"><b> ▶</b></button>
+<!--video-->
+<video id="myVideo"  class="video3" controls>
+  <source src="video.mp4" type="video/mp4">
+</video>
+</div>
+
+<!--omni seo-->
+<div class="container11">
+<div>
+  <iframe class="video2" width="560" height="315" src="https://www.youtube.com/embed/M41Uj4aEpy4?si=Z3-We7A_em0Nj1XE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div>
+  <h1 style="font-size: 45px; margin-left: 50px;margin-top: 60px;"><b> 📰What’s New in SEO?</b></h1>
+  <h1 style="font-size: 45px;color: blueviolet;line-height: 0%;margin-left: 100px;"><b> OmniSEO™</b></h1>
+  <br>
+  <p style="font-size: 22px;margin-left: 110px;text-align: left;">SEO is evolving. Traditional strategies that focus solely on Google rankings are no longer enough to stay competitive in a world of AI-driven search, social media, and conversational engines.
+
+<br><br>Enter OmniSEO™, a groundbreaking approach trademarked by WebFX, designed to optimize your visibility across all search platforms – not just Google.</p>
+<br><br>
+<button class="button1" style="margin-left: 40px;"><b>Our OmniSEO Services</b></button>
+<a href="#" style="color: blueviolet;text-decoration: none;margin-left: 20px;font-size: 23px;"><b>Learn about SEO & AI</b></a>
+</div>
+</div>
+
+<!--search engine optimization-->
+<div class="container3">
+<h1 style="color: blueviolet;font-size: 45px;"><b>Search Engine Optimization</b></h1>
+<p style="font-size: 20px;"><i>What is SEO? SEO is the marketing process that gets your website to the top of search results for products and services you provide.</i></p>
+<br>
+<p style="font-size: 20px;text-align: left;"> When someone searches online for something you sell, whether it be a product or a service, you would certainly hope that your business was front and center!<b> SEO is the process that gets you to the top of search results.</b> This leads to increased visibility from targeted traffic that generates revenue driving traffic<br> to your business.</p>
+<p style="font-size: 20px;text-align: left;">As the leading organic SEO company in the United States, we’ve been driving success for businesses with SEO since 1995. We’ve seen it all! If you want an<br> SEO agency like ours to take a look at your current SEO situation, don’t hesitate to contact us! We can give you a free proposal on how you can rank better and drive quality leads and sales for your business.</p>
+<br>
+<p style="font-size: 20px;">Not sure where your SEO stands right now? Check your website below to see where you compare against your biggest competitor</p>
+</div>
+
+
+<!--free domain-->
+<div class="container4">
+<h1 style="font-size: 55px;"><b>Free domain overview</b></h1>
+<form>
+  <input type="email" placeholder="Enter your email" style="font-size: 20px;" class="form2">
+  <br><br><br>
+  <input type="url" placeholder="Enter your domain" style="font-size: 20px;" class="form2">
+  <br><br><br>
+  <input type="text" placeholder="Enter your competitor" style="font-size: 20px; width:1235px;
+      height:40px; border-radius: 10px;">
+  <br><br><br>
+<select name="country" id="country" style="width: 600px;height: 55px;  border-radius: 10px;font-size: 20px;">
+
+<option value="United Kingdom"> United Kingdom</option>
+<option value="United States"> United States</option>
+<option value="Egypt"> Egypt</option>
+<option value="Pakistan"> Pakistan</option>
+<option value="Norway"> Norway</option>
+<option value="Dubai"> Dubai</option>
+<option value="Saudia Arabia"> Saudia Arabia</option>
+</select>
+
+
+<select name="country" id="country" style="width: 600px;height: 55px;  border-radius: 10px;font-size: 20px;margin-left: 50px;">
+
+<option value="English"> English</option>
+<option value="Urdu"> Urdu</option>
+<option value="Arabic"> Arabic</option>
+</select>
+
+
+  <br><br><br>
+ <button style="font-size: 20px; background-color: white;text-align: center;color: rgb(41, 0, 78);" class="form2"><b>Get Domain and Competitor Overview</b></button>
+</form>
+</div>
+
+
+<!--The right seo Traffic-->
+<div class="container5">
+<div>
+  <h1 style="font-size: 45px;"><b>The Right SEO Agency<br> That Drives Quality <br>Traffic</b></h1>
+  <p style="font-size: 22px;">Getting the right SEO partner isn’t always an easy task. Before you even <br>begin the search for an SEO agency, it’s important to know the answers<br> to many different questions. Whether you’re deep in the research phase<br> and started comparing SEO marketing companies, or you just learned <br>about SEO, here are some resources to help you answer the most<br> common questions we get.</p>
+<ul style="font-size: 20px;">
+  <li><a href="#" class="line">What are SEO services?</a></li>
+  <br>
+  <li><a href="#" class="line">much should I spend on SEO?</a> </li>
+  <br>
+  <li><a href="#" class="line">Should I hire an in-house SEO or find an agency?</a></li>
+  <br>
+  <li><a href="#" class="line" >What types of SEO services do I need?</a></li>
+  <br>
+  <li><a href="#" class="line">What do I need to know when I’m comparing SEO agencies?</a></li>
+</ul>
+<br>
+<button class="button1"><b>Our SEO Services</b></button>
+<a href="#" style="color: blueviolet;text-decoration: none;margin-left: 20px;font-size: 23px;"><b>Best SEO Companies</b></a>
+</div>
+<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/_s2h7X-c2jE?si=5wjbL4kBbDlgYiA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
+<!--seo agency-->
+<br><br><br><br><br><br>
+<div class="container6">
+<h1 style="font-size:45px;"><b>Hear How Our SEO Agency Helps Teams Like Yours</b></h1>
+<div style="display: flex;">
+<div class="container7" style="margin-left: 30px;">
+<h1 style="margin-top: 0;font-size: 30px; ">C.H. Reed</h1>
+<p style="font-size: 22px;">C.H. Reed was looking to increase its traffic and leads, and with a custom SEO and local SEO campaign from WebFX, the company has started to see impressive results — including a 40% increase in organic traffic.</p>
+<p style="font-size: 22px;"><span style="color: blueviolet";><b>Services:</b> </span>SEO, Local SEO</p>
+<br>
+<img src="img2.png" style="width: 350px; height: 230px;border-radius: 10px;">
+</div>
+
+<div class="container7" style="margin-left: 50px;">
+<h1 style="margin-top: 0;font-size: 30px; ">All Pro Trailer Superstore</h1>
+<p style="font-size: 22px;">“WebFX has helped us expand our digital footprint not only in Central PA and the mid-Atlantic, but also throughout the Continental U.S.”</p>
+<p style="font-size: 22px;"><span style="color: blueviolet";><b>Services:</b></span> SEO, PPC, Email, Social Media, Website Maintenance</p>
+<br>
+<img src="img3.webp" style="width: 350px; height: 230px;border-radius: 10px;">
+</div>
+
+<div class="container7" style="margin-left: 50px;">
+<h1 style="margin-top: 0;font-size: 30px; ">de Ramon Plastic Surgery Institute</h1>
+<p style="font-size: 22px;">“The nice thing about working with WebFX has always been that they’ve pushed us to up the quality of everything that we’re doing.”</p>
+<p style="font-size: 22px;"><span style="color: blueviolet";><b>Services:</b> </span>SEO, PPC, Web Design</p>
+<br><br>
+<img src="img4.jpg" style="width: 350px; height: 230px; border-radius: 10px;">
+</div>
+</div>
+</div>
+
+
+<!--learn seo-->
+<br><br><br><br>
+<div class="container5" style="height: auto;">
+<div>
+  <h1 style="font-size: 45px;"><b>Everything You Need to<br> Learn SEO</b></h1>
+  <p style="font-size: 22px;">There is a lot to learn in the world of SEO! The industry constantly<br> changes which means everyone is always learning no matter how <br>experienced you may be. Start learning more about SEO below:</p>
+<ul style="font-size: 20px;">
+ <li> <a href="#" class="line">What is SEO?</a></li>
+ <br>
+ <li> <a href="#" class="line">Why isn’t my website showing up on Google?</a></li>
+  <br>
+ <li> <a href="#" class="line">Is SEO worth it?</a></li>
+   <br>
+ <li> <a href="#" class="line">How to do keyword research</a></li>
+</ul>
+<br><br>
+<button class="button4"><b>Our SEO Services</b></button>
+<button class="button4"><b>Our SEO Services</b></button>
+</div>
+<img src="img5.png" style="width:545px; height:360px;  margin-top: 70px; margin-left: 100px;">
+
+</div>
+
+
+<br><br><br><br>
+<!--seo.com-->
+
+<div class="container11" style="height: 650px;">
+  <div>
+    <img id="myimage"   src="img8.webp"  alt="first image"   style="width:560px; height:315px; margin-top: 200px;border-radius: 15px;" >
+    
+    <!--button function-->
+<script>
+  let isfirstImage=true;// track which image is showing
+  function toggleImage(){
+    let img=
+     document.getElementById("myimage");
+     
+     if (isfirstImage) 
+     {
+      img.src="img9.png";
+     }
+     else{
+      img.src="img8.webp";
+     }
+
+     isfirstImage = !isfirstImage;
+  }
+</script>
+   <button  onclick="toggleImage()"  class="button5" ><b>→</b></button>
+  </div>
+
+
+  <div>
+    <h1 style="font-size: 45px; margin-left: 70px;margin-top: 50px;"><b> Who is SEO.com?</b></h1>
+    <p style="font-size: 22px;margin-left: 110px;text-align: left;">👋SEO.com is powered by the SEOs at WebFX, a tech-enabled digital marketing and SEO agency with over 25 years of experience helping businesses grow online.</p>
+  <p style="font-size: 22px;margin-left: 110px;text-align: left;">Since 1995, we’ve partnered with thousands of companies, delivering metrics-driven results like increased leads and revenue. Our award-winning team of marketers, designers, and developers crafts <b>custom digital strategies tailored to your business goals.</b></p>
+    <p style="font-size: 22px;margin-left: 110px;text-align: left;">Our unique combination of talent and tech is what sets WebFX apart from other SEO agencies. We prioritize deep partnerships with our clients so that we can deliver the results they need, faster. We leverage our unmatched RevenueCloudFX platform to connect the dots with attribution, reporting, ROI, and more. Our almost 30 years of experience, industry-specific expertise, and data-driven approach makes WebFX the highest rated SEO marketing company in 2025.</p>
+  <p style="font-size: 22px;margin-left: 110px;text-align: left;">Request your <span><a href="#" class="line"> <b>free strategy proposal</b></a> </span> to get started with our team!</p>
+  </div>
+
+</div>
+
+
+<!--clients review-->
+<div class="container3" style="height: 850px;">
+  <h1 style="font-size: 45px;">Clients Review</h1>
+  <div style="display: flex;">
+   <div class="container10" style="margin-left: 70px;">
+    <h2 id="heading"><b>Sarah, E-commerce Owner</b></h2>
+   <p>"Working with this SEO team has been a game-changer for our business. Our website traffic has doubled in just three months, and we’re now ranking on the first page for multiple high-competition keywords. Highly recommended!"</p>
+   </div>
+  
+
+   <div class="container10" style="margin-left: 50px;">
+    <h2 id="heading"><b>David R., Restaurant Owner</b></h2>
+   <p>"Professional, transparent, and result-driven! They explained every step of the SEO process and delivered beyond our expectations. Our local search visibility improved drastically, and we’ve seen a clear boost in sales."</p>
+   </div>
+
+
+<div class="container10" style="margin-left: 50px;">
+    <h2 id="heading"><b>Amna, Blogger & Influencer</b></h2>
+   <p>"We struggled for years to get organic traffic, but after partnering with them, our site finally started to attract the right audience. Their keyword strategy and content optimization really paid off." </p>
+   </div>
+
+
+
+  </div>
+ <div style="display: flex;">
+   <div class="container10" style="margin-left: 70px;">
+    <h2 id="heading"><b>Olivia M., Online Boutique Owner</b></h2>
+   <p>"These SEO experts completely transformed our online presence. Within a few months, we went from barely showing up in searches to ranking in the top spots. Amazing results!"</p>
+   </div>
+  
+
+   <div class="container10" style="margin-left: 50px;">
+    <h2 id="heading"><b> Daniel K., Digital Agency CEO</b></h2>
+   <p>"They took the time to understand our business and target audience. The strategies they used brought us more qualified leads than ever before." </p>
+   </div>
+
+
+<div class="container10" style="margin-left: 50px;">
+    <h2 id="heading"><b>Ethan Ahmed R., Café Owner</b></h2>
+   <p>"I loved their transparency and regular updates. Every month we could see steady growth in both rankings and traffic. Definitely worth the investment!"</p>
+   </div>
+</div>
+</div>
+
+
+
+<!--resources-->
+
+<div class="container6">
+  <h1 style="font-size:45px;"><b>Resources to Take Your SEO to the Next Level</b></h1>
+<div style="display: flex;">
+  <div class="container12" style="margin-left: 30px;">
+   <img src="img6.png" height="100px" width="120px">
+   <br>
+   <h1><b>Learn SEO</b></h1>
+<p>Marketing with SEO is always changing! If you’re new, start at some of the resources below:</p>
+<br>
+<a href="#" class="line"><b>✓ SEO Basics</b></a>
+<br>
+<a href="#" class="line"><b>✓ SEO Blog</b></a>
+<br>
+<a href="#" class="line"><b>✓ Learn SEO by Industry</b></a>
+<br>
+<a href="#" class="line"><b>✓ What does an SEO company do?</b></a>
+  </div>
+
+
+  <div class="container12" style="margin-left: 50px;">
+ <img src="img7.webp" height="100px" width="120px">
+   <br>
+   <h1><b>Professional SEO </b></h1>
+<p>Say goodbye to the hassle of DIY SEO and hello to effortless growth with our ROI-focused strategies:</p>
+<br>
+<a href="#" class="line"><b>✓ Professional SEO Services</b></a>
+<br>
+<a href="#" class="line"><b>✓ PPC Management Services</b></a>
+<br>
+<a href="#" class="line"><b>✓ SEO Content Marketing Services</b></a>
+<br>
+<a href="#" class="line"><b>✓ Web Design Services</b></a>
+<br>
+<a href="#" class="line"><b>✓ Local SEO Services</b></a>
+  </div>
+
+
+    <div class="container12" style="margin-left: 50px;">
+ <img src="img10.png" height="100px" width="120px">
+   <br>
+   <h1><b>SEO Tools </b></h1>
+<p>Not ready to sign up for SEO services? That’s okay! There are a number of free tools that we recommend for businesses looking to grow their SEO.</p>
+<p>Check out our short list of SEO tools curated by our expert team!</p>
+<br>
+<a href="#" class="line"><b>Explore SEO Tools →</b></a>
+  </div>
+
+</div>
+</div>
+
+
+<br><br><br><br>
+<!--footer-->
+<div class="container8">
+<div>
+  <img src="logo1.png" style="height:80px;margin-left: 30px;">
+  <br><br>
+<h1 style="color: white;font-size: 45px;margin-left: 20px;">The Authority for<br> All Things SEO</h1>
+<a style="margin-left: 20px;" href="https://www.facebook.com/seocom/"target="-blank" class="fb-circle"><i class="fab fa-facebook-f"></i></a>
+ <a style="margin-left: 20px;" href="https://www.instagram.com/seocom/?hl=en"target="-blank" class="insta-circle"><i class="fab fa-instagram"></i></a>
+ <a style="margin-left: 20px;" href="https://www.linkedin.com/company/seo.com/"target="-blank" class="linkdin-circle"><i class="fab fa-linkedin-in"></i></a>
+ <a style="margin-left: 20px;" href="https://x.com/seocompk"target="-blank" class="twitter-circle"><i class="fab fa-twitter"></i></a>
+</div>
+
+<div>
+<h1>Learn SEO</h1>
+<a href="#" class="footer">AI and SEO</a>
+<br><br>
+<a href="#" class="footer">SEO Blog</a>
+<br><br>
+<a href="#" class="footer">Basics</a>
+<br><br>
+<a href="#" class="footer">SEO Resources</a>
+<br><br>
+<a href="#" class="footer">Glossary</a>
+</div>
+
+
+<div>
+<h1>SEO Solutions</h1>
+<a href="#" class="footer">SEO Services</a>
+<br><br>
+<a href="#" class="footer">PPC Services</a>
+<br><br>
+<a href="#" class="footer">Web Design Services</a>
+<br><br>
+<a href="#" class="footer">SEO & Digital Marketing<br><br> Services</a>
+</div>
+
+
+
+<div>
+<h1>Company</h1>
+<a href="#" class="footer">SEO Companies</a>
+<br><br>
+<a href="#" class="footer">SEO Case Studies</a>
+<br><br>
+<a href="#" class="footer">About us</a>
+<br><br>
+<a href="#" class="footer">Contact us</a>
+<br><br>
+<a href="#" class="footer">Industries</a>
+</div>
+</div>
+</div>
+
+<a href="https://web.whatsapp.com/" target="_blank" class="whatsapp-float" title="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<div class="container9">
+<p style="font-size: 20px;"> Copyright © SEO.com 2025. All rights reserved.</p>
+<p style="font-size: 20px;"> Initiative By Laiba Khalid</p>
+</div>
+
+
+</body>
+</html>
